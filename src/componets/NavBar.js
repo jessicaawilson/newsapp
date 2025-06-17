@@ -12,6 +12,7 @@ export class NavBar extends Component {
         <>
       <div>
             <nav className="navbar navbar-expand-lg navbar-collapse" id="navbarSupportedContent" style={mystyle}>
+                <h1>this is made by jessica</h1>
                 <div className="container-fluid">
                     <Link className={`navbar-brand text-${mode ? 'light' : 'dark'}`} to="/">NewsMonkey</Link>
                     <button className={`navbar-toggler btn btn-${mode ? 'light' : 'dark'}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" style={mystyle}>
